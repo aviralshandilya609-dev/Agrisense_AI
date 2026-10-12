@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AgriSense AI - Agricultural Assistant</title>
+
+    <link rel="stylesheet" href="chatbot.css">
+   
+</head>
+
+<body>
+    
+    <nav class="chatbot-navbar">
+        <a href="../Frontend/index.html" class="back-home">
+            ← Back to Home
+        </a>
+    </nav>
+
+    <div class="chatbot-container">
+
+        <!-- HEADER -->
+        <header class="chatbot-header">
+
+            <div class="brand">
+                <div class="brand-icon">🌱</div>
+
+                <div>
+                    <h1>AgriSense AI</h1>
+                    <p>Agricultural Assistant</p>
+                </div>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                AI Assistant
+            </div>
+
+        </header>
+
+
+        <!-- CHAT AREA -->
+        <main class="chat-area" id="chatArea">
+
+            <div class="message bot-message">
+
+                <div class="message-avatar">
+                    AI
+                </div>
+
+                <div class="message-content">
+
+                    <div class="message-name">
+                        AgriSense AI
+                    </div>
+
+                    <div class="message-bubble">
+                        Hello! I'm your AgriSense agricultural assistant.
+                        <br><br>
+                        I can help you with crop diseases, symptoms,
+                        treatment, crop care, and general farming questions.
+                        <br><br>
+                        How can I help you today?
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <!-- SUGGESTIONS -->
+        <div class="suggestions">
+
+            <button onclick="sendSuggestion('How can I identify a crop disease?')">
+                Crop disease identification
+            </button>
+
+            <button onclick="sendSuggestion('What are common causes of leaf diseases?')">
+                Leaf disease causes
+            </button>
+
+            <button onclick="sendSuggestion('How should I manage a diseased crop?')">
+                Disease management
+            </button>
+
+            <button onclick="sendSuggestion('Give me general crop care advice')">
+                Crop care
+            </button>
+
+        </div>
+
+
+        <!-- INPUT AREA -->
+        <footer class="chat-input-area">
+
+            <div class="input-wrapper">
+
+                <textarea
+                    id="userInput"
+                    placeholder="Ask something about farming or crop diseases..."
+                    rows="1"
+                    onkeydown="handleKeyDown(event)"
+                ></textarea>
+                <button
+    class="voice-button"
+    id="voiceButton"
+    onclick="startVoiceInput()"
+    aria-label="Voice input"
+>
+    🎙️
+</button>
+
+
+                <button
+                    class="send-button"
+                    id="sendButton"
+                    onclick="sendMessage()"
+                    aria-label="Send message"
+                >
+                    ➤
+                </button>
+
+            </div>
+
+            <p class="disclaimer">
+                AgriSense AI provides decision-support information.
+                For serious crop problems, verify recommendations with
+                a qualified agricultural expert.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <script src="chatbot.js"></script>
+
+</body>
+</html>

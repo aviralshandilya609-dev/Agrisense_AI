@@ -1,0 +1,828 @@
+{
+  "Apple___Apple_scab": {
+    "crop": "Apple",
+    "condition": "Apple scab",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": true,
+    "treatment_summary": "Integrated apple-scab management; use a registered fungicide according to the current label and orchard advisory.",
+    "cultural_management": [
+      "Remove fallen infected leaves, maintain orchard sanitation, prune for better airflow, and monitor during wet periods."
+    ],
+    "chemical_recommendations": [
+      {
+        "active_ingredient": "Captan 50% WP",
+        "product_type": "Fungicide",
+        "dose": "2.5 kg/ha",
+        "application_method": "Foliar spray",
+        "water_volume": "750–1000 L/ha",
+        "phi_days": null,
+        "frequency": "Use according to the current registered label and local advisory.",
+        "source": "PPQS IPM Package of Practices for Apple",
+        "source_url": "https://ppqs.gov.in/sites/default/files/pop-apple_final-_08.12.2022.pdf",
+        "verification_status": "source_verified_ipm"
+      }
+    ],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use soil-test-based balanced nutrition; avoid excessive nitrogen.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not use an off-label pesticide or extrapolate a dose from another crop."
+    ],
+    "verification_status": "verified_chemical_entries",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Apple___Black_rot": {
+    "crop": "Apple",
+    "condition": "Black rot",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "No single curative treatment restores badly infected tissue; sanitation, pruning and prevention are the core management.",
+    "cultural_management": [
+      "Prune and destroy dead or mummified plant material, remove infected fruit and cankers, and improve orchard sanitation and airflow."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced, soil-test-based nutrition to avoid plant stress.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not treat fertilizer as a cure for black rot."
+    ],
+    "verification_status": "management_verified_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Apple___Cedar_apple_rust": {
+    "crop": "Apple",
+    "condition": "Cedar apple rust",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Management focuses on sanitation, alternate-host management and timely protection; severely affected tissue cannot be chemically 'cured'.",
+    "cultural_management": [
+      "Remove or manage nearby alternate hosts where practical, prune affected material, improve airflow, and monitor from early leaf development."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use balanced soil-test-based nutrition; avoid excessive nitrogen.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not apply an unregistered fungicide solely because the AI prediction is positive."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "crop": "Cherry",
+    "condition": "Powdery mildew",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Manage early with canopy ventilation, sanitation and a locally registered powdery-mildew product if required.",
+    "cultural_management": [
+      "Improve canopy airflow, remove severely affected tissue where practical, avoid excessive nitrogen, and monitor new growth."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use balanced, soil-test-based nutrition and avoid excessive nitrogen.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not assume a nutrient spray will cure fungal infection."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "crop": "Corn (maize)",
+    "condition": "Cercospora leaf spot / gray leaf spot",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Integrated management: resistant/tolerant hybrids where available, residue and rotation management, scouting and timely protection where locally recommended.",
+    "cultural_management": [
+      "Use crop rotation where feasible, manage infected residue, maintain balanced nutrition and scout lower leaves for early symptoms."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced nutrition based on soil testing.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not use fertilizer as a substitute for disease management."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "crop": "Corn (maize)",
+    "condition": "Common rust",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": true,
+    "treatment_summary": "Early disease management with resistant/tolerant varieties and, where warranted, a registered fungicide.",
+    "cultural_management": [
+      "Use resistant/tolerant varieties where available, scout regularly, maintain balanced nutrition and avoid unnecessary prolonged leaf wetness."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced crop nutrition; avoid excessive nitrogen.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not spray solely from an image diagnosis without checking crop stage and field symptoms."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "crop": "Corn (maize)",
+    "condition": "Northern leaf blight",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Use resistant hybrids, crop rotation/residue management and timely disease scouting; chemical protection depends on local registration and disease pressure.",
+    "cultural_management": [
+      "Use resistant varieties, rotate crops, manage infected residue and scout regularly, especially under humid conditions."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced soil-test-based nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not assume every foliar leaf lesion is northern leaf blight."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Grape___Black_rot": {
+    "crop": "Grape",
+    "condition": "Black rot",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Remove infected berries/debris, improve canopy ventilation and use only a locally registered grape fungicide when indicated.",
+    "cultural_management": [
+      "Remove infected berries and plant debris, improve canopy ventilation, avoid prolonged leaf wetness and maintain vineyard sanitation."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use balanced, soil-test-based vineyard nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not apply tomato or apple pesticide doses to grape."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "crop": "Grape",
+    "condition": "Esca (black measles)",
+    "condition_type": "fungal_disease_complex",
+    "direct_cure_available": false,
+    "treatment_summary": "Esca is a wood-disease complex; infected wood management, clean planting material and pruning-wound hygiene are central. There is no reliable field 'cure' that reverses established wood infection.",
+    "cultural_management": [
+      "Remove and destroy severely affected wood, use clean planting material, disinfect pruning tools and manage pruning wounds to reduce infection risk."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced nutrition and avoid plant stress.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not promise a chemical cure for established Esca."
+    ],
+    "verification_status": "management_guidance_no_direct_cure",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "crop": "Grape",
+    "condition": "Leaf blight (Isariopsis leaf spot)",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Remove infected leaves/debris, improve canopy ventilation and use a locally registered fungicide if confirmed and warranted.",
+    "cultural_management": [
+      "Remove infected leaves and debris, improve canopy ventilation and monitor during humid periods."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use balanced soil-test-based nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not use a fungicide dose from another crop."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "crop": "Orange",
+    "condition": "Huanglongbing (citrus greening)",
+    "condition_type": "bacterial_like_systemic_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "No direct curative treatment eliminates HLB from an infected tree; use certified planting material, vector management and local citrus disease protocols.",
+    "cultural_management": [
+      "There is no curative pesticide treatment for an infected tree. Use certified disease-free planting material, remove severely infected trees where recommended, and manage the psyllid vector through an authorised citrus IPM programme."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Nutrition can support tree health but does not cure HLB; use soil/leaf-test-based citrus nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not claim that fertilizer or pesticide cures HLB."
+    ],
+    "verification_status": "no_direct_cure_vector_management",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Peach___Bacterial_spot": {
+    "crop": "Peach",
+    "condition": "Bacterial spot",
+    "condition_type": "bacterial_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Management is preventive/integrated: clean planting material, sanitation, canopy management and locally registered bacterial-disease protection when warranted.",
+    "cultural_management": [
+      "Use clean planting material, prune for airflow, remove severely affected material, avoid unnecessary leaf wetness and follow local bacterial-disease IPM guidance."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced, soil-test-based orchard nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not describe fertilizer as a cure for bacterial infection."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "crop": "Bell pepper",
+    "condition": "Bacterial spot",
+    "condition_type": "bacterial_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Use disease-free seed/transplants, sanitation, reduced leaf wetness and locally registered bacterial-disease management.",
+    "cultural_management": [
+      "Use disease-free seed/transplants, avoid overhead irrigation, remove infected plant material, sanitize tools and improve field sanitation."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use soil-test-based balanced nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not use unregistered antibiotics or pesticide combinations."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Potato___Early_blight": {
+    "crop": "Potato",
+    "condition": "Early blight",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": true,
+    "treatment_summary": "Integrated early-blight management with healthy seed, rotation, sanitation and a registered fungicide when indicated.",
+    "cultural_management": [
+      "Use healthy seed, rotate crops, remove infected residue, maintain plant vigor and avoid prolonged leaf wetness."
+    ],
+    "chemical_recommendations": [
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "product_type": "Protective fungicide",
+        "dose": "600–800 g in 300 L water/acre",
+        "application_method": "Foliar spray",
+        "water_volume": "300 L/acre",
+        "phi_days": null,
+        "frequency": "Follow the current registered label and local advisory.",
+        "source": "PPQS AESA-based IPM – Potato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/potato.pdf",
+        "verification_status": "source_verified_ipm"
+      }
+    ],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced nutrition and avoid nutrient stress; use soil-test-based fertilizer planning.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not use tomato spray rates on potato unless the potato label supports them."
+    ],
+    "verification_status": "verified_chemical_entries",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Potato___Late_blight": {
+    "crop": "Potato",
+    "condition": "Late blight",
+    "condition_type": "oomycete_disease",
+    "direct_cure_available": true,
+    "treatment_summary": "Early protective fungicide management, sanitation, healthy seed and disease-risk monitoring are important; established severe infections cannot simply be reversed.",
+    "cultural_management": [
+      "Use healthy seed, remove volunteer/infected plants, improve field ventilation and use disease forecasting where available. Late blight risk increases under cool, wet conditions."
+    ],
+    "chemical_recommendations": [
+      {
+        "active_ingredient": "Registered late-blight fungicide",
+        "product_type": "Fungicide",
+        "dose": "Use the current registered product label for potato late blight",
+        "application_method": "Foliar spray",
+        "water_volume": "As per current label",
+        "phi_days": null,
+        "frequency": "Follow the current label and local agriculture/KVK advisory; rotate modes of action.",
+        "source": "PPQS AESA-based IPM – Potato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/potato.pdf",
+        "verification_status": "source_verified_ipm_label_required"
+      }
+    ],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Maintain balanced soil-test-based nutrition; nutrition does not cure late blight.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not delay action during cool, humid, rainy high-risk conditions."
+    ],
+    "verification_status": "verified_source_label_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Squash___Powdery_mildew": {
+    "crop": "Squash",
+    "condition": "Powdery mildew",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Improve airflow, remove heavily affected leaves and use a locally registered powdery-mildew treatment when confirmed.",
+    "cultural_management": [
+      "Improve airflow, avoid excessive nitrogen, remove heavily affected leaves where practical and reduce prolonged humid canopy conditions."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Avoid excessive nitrogen; use balanced soil-test-based nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not use fertilizer or foliar nutrients as a substitute for disease control."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Strawberry___Leaf_scorch": {
+    "crop": "Strawberry",
+    "condition": "Leaf scorch",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Remove affected leaves, maintain sanitation and airflow, and use a locally registered treatment only after confirming the cause.",
+    "cultural_management": [
+      "Remove heavily infected leaves, improve field sanitation and airflow, avoid prolonged leaf wetness and use clean planting material."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use soil/plant-test-based balanced nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not assume every leaf scorch symptom is fungal."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Bacterial_spot": {
+    "crop": "Tomato",
+    "condition": "Bacterial spot",
+    "condition_type": "bacterial_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Use disease-free planting material, sanitation, reduced leaf wetness and source-supported bacterial-disease protection where indicated.",
+    "cultural_management": [
+      "Use disease-free seed/transplants, avoid overhead irrigation, remove infected debris, sanitize tools and reduce leaf wetness."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "PPQS tomato guidance supports balanced nutrition; correct micronutrient deficiencies based on diagnosis rather than blanket fertilizer use.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not claim a fertilizer cures bacterial spot."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Early_blight": {
+    "crop": "Tomato",
+    "condition": "Early blight",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": true,
+    "treatment_summary": "Integrated management: sanitation, rotation, canopy/leaf-wetness management plus a registered fungicide when indicated.",
+    "cultural_management": [
+      "Remove infected leaves and debris, use crop rotation, improve airflow, avoid overhead irrigation and monitor lower leaves for progression."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [
+      "Use source-supported biological/IPM measures where locally recommended."
+    ],
+    "fertilizer_nutrition": "PPQS recommends balanced nutrition and correction of diagnosed micronutrient deficiencies; do not use fertilizer as the disease cure.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not mix fungicides without label or authorised agronomic advice."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Late_blight": {
+    "crop": "Tomato",
+    "condition": "Late blight",
+    "condition_type": "oomycete_disease",
+    "direct_cure_available": true,
+    "treatment_summary": "Integrated late-blight management with early protection, sanitation, leaf-wetness reduction and registered fungicides.",
+    "cultural_management": [
+      "Scout frequently, reduce leaf wetness, remove severely affected material and follow local disease-management timing."
+    ],
+    "chemical_recommendations": [
+      {
+        "active_ingredient": "Azoxystrobin 23% SC",
+        "product_type": "Systemic fungicide",
+        "dose": "200 ml in 200 L water/acre",
+        "application_method": "Foliar spray",
+        "water_volume": "200 L/acre",
+        "phi_days": null,
+        "frequency": "PPQS tomato IPM lists this for late blight; follow the current label.",
+        "source": "PPQS/DPPQ&S AESA-based IPM Package – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "source_verified_ipm"
+      },
+      {
+        "active_ingredient": "Mandipropamid 23.4% SC",
+        "product_type": "Fungicide",
+        "dose": "0.08% formulation",
+        "application_method": "Foliar spray",
+        "water_volume": "500 L/ha",
+        "phi_days": 5,
+        "frequency": "First spray preventively or at disease initiation; follow the current registered label for repeat interval and maximum applications.",
+        "source": "PPQS primary package label",
+        "source_url": "https://ppqs.gov.in/sites/default/files/mandipropamid_23.4_sc93fsyngenta_india_limited_1.pdf",
+        "verification_status": "label_verified"
+      }
+    ],
+    "biological_treatment": [
+      "Use source-supported biological/IPM measures where locally recommended."
+    ],
+    "fertilizer_nutrition": "Use balanced soil-test-based nutrition; nutrition supports crop vigor but does not cure late blight.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not wait for severe canopy infection before following the local disease-management programme."
+    ],
+    "verification_status": "verified_chemical_entries",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Leaf_Mold": {
+    "crop": "Tomato",
+    "condition": "Leaf mold",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Reduce humidity and leaf wetness, improve ventilation, remove affected leaves and use a locally registered fungicide when confirmed.",
+    "cultural_management": [
+      "Improve ventilation, reduce humidity and leaf wetness, remove infected lower leaves and maintain greenhouse/field sanitation."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Avoid excessive nitrogen and use balanced soil-test-based nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not treat humidity-driven fungal disease with fertilizer alone."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "crop": "Tomato",
+    "condition": "Septoria leaf spot",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": true,
+    "treatment_summary": "Sanitation, removal of infected leaves/debris, rotation, reduced leaf wetness and a registered fungicide when indicated.",
+    "cultural_management": [
+      "Remove infected leaves and crop debris, rotate crops, improve airflow, avoid overhead irrigation and sanitize tools."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use balanced soil-test-based nutrition and correct confirmed deficiencies.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not use an off-label dose."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "crop": "Tomato",
+    "condition": "Two-spotted spider mites",
+    "condition_type": "mite_pest",
+    "direct_cure_available": true,
+    "treatment_summary": "Confirm mites on leaf undersides, conserve beneficial predators and use a registered miticide when threshold/field conditions justify treatment.",
+    "cultural_management": [
+      "Inspect leaf undersides, reduce plant stress, conserve beneficial predatory mites/insects and use an authorised miticide only when the pest and crop are confirmed."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [
+      "Conserve beneficial predatory mites and insects as part of IPM."
+    ],
+    "fertilizer_nutrition": "Maintain balanced nutrition and avoid plant stress; fertilizer does not kill mites.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not spray insecticide/miticide without confirming the pest."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Target_Spot": {
+    "crop": "Tomato",
+    "condition": "Target spot",
+    "condition_type": "fungal_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "Remove affected foliage/debris, improve airflow and leaf-wetness management and use a locally registered fungicide if confirmed.",
+    "cultural_management": [
+      "Remove infected leaves and debris, improve airflow, reduce leaf wetness and use crop sanitation and rotation."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Use balanced soil-test-based nutrition.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not treat target spot with fertilizer alone."
+    ],
+    "verification_status": "management_guidance_chemical_label_check_required",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "crop": "Tomato",
+    "condition": "Tomato mosaic virus",
+    "condition_type": "viral_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "No direct chemical cure. Rogue infected plants where recommended, use clean planting material and prevent mechanical spread through sanitation.",
+    "cultural_management": [
+      "There is no direct chemical cure for an infected plant. Remove severely infected plants, use clean seed/transplants, disinfect tools and hands, and prevent mechanical spread."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [],
+    "fertilizer_nutrition": "Balanced nutrition can support crop vigor but cannot eliminate the virus.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not promise a pesticide or fertilizer cure for TMV."
+    ],
+    "verification_status": "no_direct_cure_management",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "crop": "Tomato",
+    "condition": "Tomato yellow leaf curl virus",
+    "condition_type": "viral_disease",
+    "direct_cure_available": false,
+    "treatment_summary": "No direct curative treatment for an infected plant. Focus on clean planting material, removal where recommended and whitefly/vector IPM.",
+    "cultural_management": [
+      "There is no direct chemical cure for an infected plant. Remove severely infected plants where recommended, use clean planting material and manage the whitefly vector through an authorised IPM programme."
+    ],
+    "chemical_recommendations": [],
+    "biological_treatment": [
+      "Use IPM measures that conserve natural enemies and authorised biological options."
+    ],
+    "fertilizer_nutrition": "Balanced nutrition supports plant vigor but does not cure TYLCV.",
+    "application_guidance": [
+      "Confirm the AI result with visible symptoms/field inspection when confidence is moderate or low.",
+      "Use only products currently registered for the exact crop and target pest/disease.",
+      "Follow the current product label for dose, PPE, re-entry and pre-harvest interval (PHI)."
+    ],
+    "safety": [
+      "Do not mix products unless the label or an authorised agronomist permits the mixture.",
+      "Use appropriate personal protective equipment.",
+      "Observe the current registered label and local agriculture/KVK advice."
+    ],
+    "do_not_do": [
+      "Do not tell farmers that fertilizer cures a virus."
+    ],
+    "verification_status": "no_direct_cure_vector_management",
+    "sources": [],
+    "source_policy": "Official agriculture/extension source preferred. A chemical recommendation is shown only when the record is explicitly source/label verified; the current product label remains controlling."
+  }
+}
